@@ -1,5 +1,5 @@
 function extraiLinks(arrLinks) {
-    return arrLinks.map((objetoLink) => Object.values(objetoLink) );
+    return arrLinks.map((objetoLink) => Object.values(objetoLink).join());
 }
 
 export default function listaValidada(listaDeLinks){
