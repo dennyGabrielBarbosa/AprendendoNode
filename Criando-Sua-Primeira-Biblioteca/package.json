@@ -1,0 +1,25 @@
+{
+  "name": "criando-sua-primeira-biblioteca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cli": "node ./src/cli.js ./arquivos/texto.md",
+    "cli:valida": "node ./src/cli.js ./arquivos/texto.md --valida"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dennyGabrielBarbosa/AprendendoNode.git"
+  },
+  "author": "Denny",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dennyGabrielBarbosa/AprendendoNode/issues"
+  },
+  "homepage": "https://github.com/dennyGabrielBarbosa/AprendendoNode#readme",
+  "dependencies": {
+    "chalk": "5.0.1"
+  }
+}
